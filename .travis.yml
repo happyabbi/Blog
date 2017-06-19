@@ -14,7 +14,7 @@ after_success:
   - git push --force --quiet "https://${blog_use}@${GH_REF}" master:master  #GH_TOKEN是在Travis中配置token的名称
 env:
  global:
-   - GH_REF: git@github.com:happyabbi/happyabbi.github.io.git  #设置GH_REF，注意更改yourname
+   - GH_REF: github.com/happyabbi/happyabbi.github.io.git  #设置GH_REF，注意更改yourname
 
  # - git config --global user.name "happyabbi" 
  # - git config --global user.email "happyabbi@gmail.com"
