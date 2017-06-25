@@ -78,9 +78,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -291,8 +291,8 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
@@ -477,7 +477,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
@@ -535,7 +535,7 @@ canvas_sphere: false
 
 # Only fit scheme Pisces
 # Canvas-ribbon
-canvas_ribbon: false
+canvas_ribbon: true
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
