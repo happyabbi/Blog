@@ -1,5 +1,9 @@
 ---
 title: 如何理解 if let 與guard?
+categories:
+- Swift 4.0
+tags:
+- Swift
 ---
 if let and guard只是省略的寫法，沒有也可以。但有了它們可以使得Code更為簡潔方便。所以要理解let和guard，不妨設想假如沒有這兩者，Code該怎麼寫。
 

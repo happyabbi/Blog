@@ -1,5 +1,9 @@
 ---
 title: View Controller 事件發生順序
+categories:
+- Swift 4.0
+tags:
+- Swift
 ---
 
 在宣告或是配置ViewController中的元件時大多都會將View的初始化動作大多會放在viewDidLoad中配置， 但除了viewDidLoad 外其實還有其他的事件可以利用。
