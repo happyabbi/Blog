@@ -26,7 +26,6 @@ tags:
 ``` 
 
 ### Type Hinting
-
 ``` python
     def  add_numbers(a:int,b:int) -> int:
         return a + b
@@ -50,8 +49,8 @@ tags:
     "123".isditit() == True # Useful whe converting to int
     "some,csv,values".split(",") == ["some","csv","values"]    
 ``` 
-### String Format Function
 
+### String Format Function
 ``` python
     name = "PythonBo"
     machine = "HAL"
@@ -68,24 +67,19 @@ tags:
     str(python_course) == "True"
 
     aliens_found = None
-
 ```
+
 ## if Statements
-
 ``` python
-
     number = 5
     if number ==5 :
         print("Number is 5")
     else:
         print("Number is NOT 5")
-
 ``` 
 
 ### Truthy and Falsy Values
-
 ``` python
-
     number = 5
     if number :
         print("Number is defined and truthy")
@@ -93,13 +87,10 @@ tags:
     text = "Python"
     if text:
         print("Text is defined and truthy")
-
 ``` 
 
 ### Boolean and None
-
 ``` python
-
 python_course = True
 
 if python_course: # Not python_course == True
@@ -110,8 +101,8 @@ if aliens_found:
     print("This will NOT execute")
 s
 ``` 
-### Not if
 
+### Not if
 ``` python
     number = 5
     if number != 5:
@@ -148,7 +139,6 @@ s
 ``` 
 
 ### Getting List Elements
-
 ``` python
     student_names = ["Mark","Katarina","Jessica"]
     student_names[0] == "Mark"
@@ -167,7 +157,6 @@ s
 ``` 
 
 ### List Functions
-
 ``` python
     student_names = ["Mark","Katarina","Jessica"]
     student_names[3] = "Homer" # No Can do!
@@ -181,8 +170,9 @@ s
 ``` 
 
 ### List Slicing
-
+``` python
 student_names = ["Mark","Katarina","Homer"]
 student_names[1:] == ["Katarina","Homer"]
 student_names[1:-1] == ["Katarina"]
+``` 
 
