@@ -15,7 +15,7 @@ tags:
 - Other Data Types
 
 ## Types in Python - Wait, What?
-``` bash
+``` python
     // C# or Java
     int answer = 42;
     String name = "PythonBo";
@@ -47,7 +47,7 @@ tags:
     "hello".replace("e","a") == "hallo"
     "hello".isalpha() == True
     "123".isditit() == True # Useful whe converting to int
-    "some,csv,values".split(",") == ["some","csv","values"]    
+    "some,csv,values".split(",") == ["some","csv","values"]
 ``` 
 
 ### String Format Function
@@ -56,7 +56,7 @@ tags:
     machine = "HAL"
     "Nice to meet you {0}. I am {1}".format(name,machine)
     f"Nice to meet you {name}. I am {machine}"
-```
+``` 
 
 ## Boolean and None
 ``` python
@@ -67,7 +67,8 @@ tags:
     str(python_course) == "True"
 
     aliens_found = None
-```
+``` 
+
 
 ## if Statements
 ``` python
@@ -99,7 +100,6 @@ if python_course: # Not python_course == True
 aliens_found = None
 if aliens_found:
     print("This will NOT execute")
-s
 ``` 
 
 ### Not if
