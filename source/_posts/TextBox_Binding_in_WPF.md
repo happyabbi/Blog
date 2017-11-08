@@ -3,7 +3,7 @@ title: TextBox Binding in WPF , MVVM
 categories:
 - WPF
 tags:
-- MVVM
+- WPF
 - MVVM-Binding
 ---
 
