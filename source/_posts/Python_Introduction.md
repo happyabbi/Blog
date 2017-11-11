@@ -32,7 +32,7 @@ tags:
 
     # Python 3
     print("Hello World")
-``` 
+```
 
 
 ## Python 2 VS. Python 3
