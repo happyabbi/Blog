@@ -7,12 +7,43 @@ tags:
 
 ## ctor 
 快速建立Class的Constructor
+``` C#
+ public class PackingViewModel
+ {
+        public PackingViewModel()
+        {
+            
+        }
+ }
+```
+## prop 
+快速建立Property的宣告。
+``` C#
+public TYPE Type { get; set; }
+```
+
+## propfull
+快速建立具有get和set存取子的Property宣告。
+``` C#
+private int myVar;
+public int MyProperty
+{
+    get { return myVar; }
+    set { myVar = value; }
+}
+```
+
+## propg
+快速建立具有私用 "set" 存取子的唯讀自動實作屬性。
+``` C#
+public int I { get; private set; }
+```
 
 ## cw
 快速建立Console.WriteLine();
 
-## How to TryParse for Enum value?
 
+## How to TryParse for Enum value?
 ``` C#
 public static TEnum ToEnum<TEnum>(this string strEnumValue, TEnum defaultValue)
 {
