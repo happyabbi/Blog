@@ -11,6 +11,18 @@ tags:
 ##cw
 快速建立Console.WriteLine();
 
+## How to TryParse for Enum value?
+
+``` C#
+public static TEnum ToEnum<TEnum>(this string strEnumValue, TEnum defaultValue)
+{
+    if (!Enum.IsDefined(typeof(TEnum), strEnumValue))
+        return defaultValue;
+
+    return (TEnum)Enum.Parse(typeof(TEnum), strEnumValue);
+}
+```
+
 ## modifer 
 
 public -> EveryWhere
